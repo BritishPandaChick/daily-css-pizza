@@ -1,0 +1,137 @@
+body {
+  background: #E0FFFF;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  background: none;
+  width: 600px;
+  height: 420px;
+}
+
+.pizza {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  border-radius: 50%;
+  background-color: #FFD700;
+}
+
+.pizza-copy {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #FFD700;
+  border-radius: 50%;
+  z-index: 2;
+  border: 10px solid #8B4513;
+}
+
+.sauce {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  border-radius: 50%;
+  z-index: 2;
+  background: #FF0000;
+}
+
+.cheese {
+  position: absolute;
+  width: 87%;
+  height: 87%;
+  top: 6%;
+  left: 7%;
+  border-radius: 50%;
+  z-index: 2;
+  background: #EEE8AA;
+}
+
+/* Pepperoni */
+.pep-1 {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 15%;
+  left: 15%;
+  background: red;
+  border-radius: 50%;
+}
+
+.pep-2 {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 25%;
+  right: 39%;
+  background: red;
+  border-radius: 50%
+}
+
+.pep-3 {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 12%;
+  right: 15%;
+  background: red;
+  border-radius: 50%;
+}
+
+.pep-4 {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 12%;
+  right: 15%;
+  background: red;
+  border-radius: 50%;
+}
+
+.pep-5 {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 45%;
+  left: 23%;
+  background: red;
+  border-radius: 50%;
+}
+
+.pep-6 {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 45%;
+  right: 25%;
+  background: red;
+  border-radius: 50%;
+}
+
+.pep-7 {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 70%;
+  left: 21%;
+  background: red;
+  border-radius: 50%;
+}
+
+.pep-8 {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 73%;
+  right: 25%;
+  background: red;
+  border-radius: 50%;
+}
